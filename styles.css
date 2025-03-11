@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+#boton1 {
+    width: calc(200px + 120px + 30px);
+}
+
+#boton2 {
+    width: 120px;
+}
+
+#cuponValido,
+#cuponInvalido {
+    display: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cuponValido {
+    color: #4caf50;
+}
+
+#cuponInvalido {
+    color: #f44336;
+}
