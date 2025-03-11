@@ -8,7 +8,7 @@ const cuponInvalido = document.getElementById("cuponInvalido");
 let cupones = [];
 
 function generarCodigo() {
-    const caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+    const caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()0123456789";
     let codigo = ""; //Inicializar como array vacio
     for (let i = 0; i < 10; i++) {
         codigo += caracteres.charAt(Math.floor(Math.random() * caracteres.length)); //Math floor redondea, se multiplica con caracteres.lenght para que Math.random de valores válidos (daría valores de 0 a 1)
